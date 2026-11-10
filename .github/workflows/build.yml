@@ -2,6 +2,7 @@
 
 name: Build distributables
 on:
+  workflow_dispatch:
   push:
     branches-ignore:
       - 'v*'
